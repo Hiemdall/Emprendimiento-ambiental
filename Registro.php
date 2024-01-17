@@ -166,7 +166,7 @@
 </main>
 
 
-<div class="container-fluid footer mt-1 py-5 fadeIn" data-wow-delay="0.1s"></div>
+<div class="container-fluid footer mt-1 py-5  fadeIn" data-wow-delay="0.1s"></div>
 <footer>
         <!-- Copyright Start -->
         <div class="container-fluid copyright py-4">

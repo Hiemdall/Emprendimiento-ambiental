@@ -37,43 +37,78 @@
 </head>
 
 <body>
+
+<header>
+            <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white shadow sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand d-lg-none ">
+                    <img src="assets/img/logo.png" alt="Logo" style="width: 250px; height: 70px;">
+                </a>
+                <div class="collapse justify-content-start navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                    <a href="index.html" class="navbar-brand me-6 d-flex align-items-center" style="width: 350px">
+                        <img src="assets/img/logo.png" alt="Logo" style="width: 250px; height: 70px;">
+                   </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    </header>
 <main>
     <div class="container-xxl py-6" id="Contact">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 wow shadow py-3 fadeInUp" data-wow-delay="0.5s">
+                <article class="container-fluid my-3">
+                        <img src="./assets/img/logo.png" alt="" class="w-100">
+                    </article>
+                    <h2 class="mb-4 text-center">Transformando el mañana con emprendimiento verde hoy: ¡Cultivando un futuro sostenible juntos!</h2>
+                    </div>
+                <div class="col-lg-4 wow shadow py-3 fadeInUp" data-wow-delay="0.5s">
                     <h1 class="mb-4 text-center">Crea tu cuenta</h1>
-                    <form action="./procesos/proceso_Crear_login.php" method="post" class="row g-3" enctype="multipart/form-data">
+                    <form action="./procesos/proceso_Crear_login.php" method="post" class="row flex-column align-items-center g-3" enctype="multipart/form-data">
 
-                        <div class="col-sm-12">
+                        <div class="col-sm-8">
                             <div class="form-floating">
                                 <input class="form-control" placeholder="Ingresa tu Nombre de usuario" type="text" id="username" name="username" required>
                                 <label for="username">Usuario:</label>
                             </div>
                         </div>
 
-                        <div class="col-sm-12">
+                        <div class="col-sm-8">
                             <div class="form-floating">
                                 <input class="form-control" type="email" id="licenciaTransportista" name="licenciaTransportista" placeholder="Licencia del Transportista:" required>
                                 <label for="username">Licencia del Transportista:</label>
                             </div>
                         </div>
 
-                        <div class="col-sm-12">
+                        <div class="col-sm-8">
                             <div class="form-floating">
                                 <input class="form-control" placeholder="Ingresa tu contraseña" type="password" id="password" name="password" required>
                                 <label for="password">Contraseña</label>
                             </div>
                         </div>
 
-                        <div class="col-sm-12">
+                        <div class="col-sm-8">
                             <div class="form-floating">
                                 <input class="form-control" placeholder="Ingresa tu Nombre de usuario" type="file" id="archivo" name="archivo" accept="image/*" required>
                                 <label for="username">Foto de perfil:</label>
                             </div>
                         </div>
 
-                        <div class="col-3 text-center">
+                        <div class="col-4 text-center">
                             <button class="btn btn-primary w-100 py-3" type="submit">Crear</button>
                         </div>
 
@@ -89,8 +124,6 @@
 </main>
 
 
-    
-    <div class="container-fluid footer mt-1 py-5 fadeIn" data-wow-delay="0.1s"></div>
 <footer>
         <!-- Copyright Start -->
         <div class="container-fluid copyright py-4">

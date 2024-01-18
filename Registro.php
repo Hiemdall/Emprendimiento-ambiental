@@ -44,31 +44,18 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid bg-white sticky-top">
+    <div class="container-fluid bg-white shadow sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
                 <a href="index.html" class="navbar-brand d-lg-none ">
-                    <img src="assets\img\" alt="" style="width: 100px; height: 55px;">
+                    <img src="assets/img/logo.png" alt="Logo" style="width: 250px; height: 70px;">
                 </a>
-                <button type="button" class="navbar-toggler me-0 primary" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="collapse justify-content-start navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
                     <a href="index.html" class="navbar-brand me-6 d-flex align-items-center" style="width: 350px">
-                        <img src="assets/img/logo.png" alt="Logo" style="width: 90px; height: 70px;">
-                        <div class="mx-2 mb-2 w-50">
-                            <span class="d-block text-primary">Emprendimiento</span>
-                            <span class="d-block">Ambiental</span>
-                        </div>
+                        <img src="assets/img/logo.png" alt="Logo" style="width: 250px; height: 70px;">
                    </a>
-                        <a href="#home" class="nav-item nav-link active">item</a> 
-                        <a href="#about" class="nav-item nav-link active">item</a>
-                        <a href="#servicios" class="nav-item nav-link active">item</a>
-                        <a href="#project" class="nav-item nav-link active">item</a>
-                        <a href="form_login.php" class="nav-item nav-link active">item</a>
-                        <a href="#Contact" class="nav-item nav-link active">item</a>
+                   <a href="form_login.php" class="navbar-brand me-6 d-flex align-items-center">login</a>
                     </div>
                 </div>
             </nav>
@@ -81,8 +68,8 @@
     <div class="container-xxl py-5" id="Contact">
     <div class="container">
         <div class="row g-5">
- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-    <h1 class="mb-4">Formulario de Registro de Residuos</h1>
+ <div class="col-lg-6 wow shadow py-5 fadeInUp" data-wow-delay="0.5s">
+    <h1 class="mb-4 text-center">Formulario de Registro de Residuos</h1>
     <form action="submit_form.php" method="post" class="row g-3">
     <div class="col-sm-6">
         <div class="form-floating">
@@ -166,8 +153,8 @@
 </main>
 
 
-<div class="container-fluid footer mt-1 py-5  fadeIn" data-wow-delay="0.1s"></div>
-<footer>
+
+<footer class="pt-0-5">
         <!-- Copyright Start -->
         <div class="container-fluid copyright py-4">
         <div class="container">
